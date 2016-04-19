@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="717.0" style="-fx-background-color: #a48759;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="TOP_CENTER" layoutY="46.0" prefHeight="111.0" prefWidth="717.0" style="-fx-background-color: #a48759;" text="Алгоритм Пріма - алгоритм побудови мінімального кістякового дерева зваженого зв'язного &#10;неорієнтованого графа. Це жадібний алгоритм. Побудова починається з дерева, що включає &#10;в себе одну (довільну) вершину. Протягом роботи алгоритму дерево розростається, поки не &#10;охопить всі вершини вихідного графа. На кожному кроці алгоритму до поточного дереву &#10;приєднується найлегше з ребер, що з'єднують вершину з побудованого дерева і вершину, &#10;що не належить дереву." textAlignment="CENTER">
+         <font>
+            <Font name="Arial Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="14.0" prefHeight="32.0" prefWidth="147.0" text="Алгоритм Прима">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.9904761904761905">
+               <stops>
+                  <Stop color="#2b00ff" />
+                  <Stop color="#e604f2" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutY="157.0" prefHeight="127.0" prefWidth="717.0" style="-fx-background-color: #a48759;" text="Алгоритм:&#10;1 - Спочатку ребра сортують за зростанням ваги.&#10;2 - Додають найменше ребро в дерево.&#10;3 - Зі списку ребер із найменшою вагою вибирають таке нове ребро, щоб одна з його вершин &#10;належала дереву, а інша — ні.&#10;4 - Це ребро додають у дерево і знову переходять до кроку 3.&#10;5 - Робота закінчується, коли всі вершини будуть у дереві.">
+         <font>
+            <Font name="Arial Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutY="299.0" prefHeight="127.0" prefWidth="717.0" style="-fx-background-color: #a48759;" text="Матриця суміжності&#10;один із способів представлення графа у вигляді матриці:&#10;Матриця суміжності і списки суміжності є основними структурами даних, що &#10;використовуються для представлення графів в комп'ютерних програмах:&#10;Матриця суміжності графа G зі скінченною кількістю вершин n (пронумерованих&#10; числами від 1 до n) — це квадратна матриця A розміру n, в якій значення &#10;елементу aij рівне числу ребер з i-ї вершини графа в j-у вершину.&#10;" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Italic" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="188.0" fitWidth="396.0" layoutX="170.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photo4.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

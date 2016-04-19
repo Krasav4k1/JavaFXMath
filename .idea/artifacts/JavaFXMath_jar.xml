@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JavaFXMath:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaFXMath_jar</output-path>
+    <root id="archive" name="JavaFXMath.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/Downloads/SpringSecurity_4/BogdaanKernuchiyDMath/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="JavaFXMath" />
+    </root>
+  </artifact>
+</component>

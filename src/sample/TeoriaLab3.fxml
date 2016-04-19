@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="743.0" style="-fx-background-color: #a48759;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="TOP_CENTER" layoutY="46.0" prefHeight="203.0" prefWidth="743.0" style="-fx-background-color: #a48759;" text="Алгоритм або метод Форда-Фалкерсона знаходить максимальний потік у транспортній мережі. &#10;&#10;Метод Форда-Фалкерсона - метод, який базується на трьох концепціях: залишкові мережі, шляхи що&#10;збільшуються і розрізи. Ключову роль у методі Форда-Фалкерсона грають два поняття: залишкові&#10; мережі і доповнюють шляху. Дані концепції лежать в основі важливої теореми про максимальний &#10;потік і мінімальний розріз, яка визначає значення максимального нащадка за допомогою розрізів &#10;траспортної мережі. Метод Форда-Фалкерсона є ітеративним. Спочатку величині потоку &#10;присвоюється значення 0: f (u, v) = 0 при будь-яких u, v Є V. На кожній ітерації величина потоку &#10;збільшується за допомогою пошуку «шляху, що збільшується» (тобто деякого шляху від джерела &#10;s до стоку t, уздовж якого можна послати більший потік) і подальшого збільшення потоку. &#10;Цей процес повторюється до тих пір, поки вже неможливо буде відшукати збільшуючийся шлях." textAlignment="CENTER">
+         <font>
+            <Font name="Arial Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="208.0" layoutY="14.0" prefHeight="32.0" prefWidth="327.0" text="Алгоритм або метод Форда-Фалкерсона">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.9904761904761905">
+               <stops>
+                  <Stop color="#2b00ff" />
+                  <Stop color="#e604f2" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="303.0" layoutY="249.0" text="Алгоритм:" textFill="#5e1111">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="148.0" fitWidth="581.0" layoutX="134.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_CENTER" layoutY="283.0" prefHeight="185.0" prefWidth="743.0" style="-fx-background-color: #a48759;" text="На першому етапі джерелу присвоюється позначка нескінченність. На цьому етапі всі інші вузли &#10;не помічені. Постараємося розставити позначки дійшовши до стоку T®S.&#10;&#10;1. Дійшовши до стоку йому приписуємо позначку [qij, k].&#10;2. Шлях потоку від джерела буде знайдений і потік для кожної дуги цього шляху збільшиться на &#10;величину qt.&#10;3. Дійшовши до стоку ми почнемо розставляти позначки спочатку, при цьому необхідно стежити, &#10;щоб залишкова пропускна здатність всіх дуг була перевищена.&#10;4. Сток не може бути позначений, це означає, що потік не може бути збільшений і що знайдений &#10;потік на попередніх кроках є максимальним." textAlignment="CENTER">
+         <font>
+            <Font name="Arial Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

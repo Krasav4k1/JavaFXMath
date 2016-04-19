@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="600.0" style="-fx-background-color: #a48759;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="199.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../150px-Venn_A_intersect_B.svg.png" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_CENTER" layoutX="3.0" layoutY="189.0" prefHeight="267.0" prefWidth="592.0" style="-fx-background-color: #a48759;" text="В математиці, зокрема в теорії множин, перетином двох множин A та B&#10;називається множина, яка складається з усіх елементів множини A,&#10;які одночасно належать і множині B та навпаки (всі елементи множини B&#10;які належать A) і тільки їх. Вона і позначається як &quot;A∩B та є підмножиною обох&#10;&#10;Якщо одна множина є підмножиною другої, то їхній перетин дорівнює першій &#10;множині: Якщо перетин двох множин A та B є порожнім, тобто не містить &#10;спільних елементів, то кажуть, що такі множини не перетинаються.&#10;Цей факт позначається як A∩B = Ø." textAlignment="CENTER">
+         <font>
+            <Font name="Arial Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="14.0" prefHeight="32.0" prefWidth="147.0" text="Перетин множин">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.9904761904761905">
+               <stops>
+                  <Stop color="#2b00ff" />
+                  <Stop color="#e604f2" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</Pane>
